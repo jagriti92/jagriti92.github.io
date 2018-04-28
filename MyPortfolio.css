@@ -1,0 +1,186 @@
+:root{
+  font-size: 20px;}
+
+html, body{
+height: 100%;
+margin: 0;
+font-size: 16px;
+font-family: "Lato", "sans serif";
+font-weight: 400;
+line-height: 1.8em;
+color: #666;
+}
+
+.pimg1{
+  width: 100%;
+  height: 100%;
+  background: url('./image/me.JPG') 40% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.pimg2{
+  width: 100%;
+  height: 100%;
+  margin-top: 3rem;
+  background: url('./image/tips-on-getting-your-copywriter-portfolio-started.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 4px 4px 5px #888888;
+  display: flex;
+  justify-content: center;
+}
+.container img{
+  width: 20%;
+  height: 100%;
+  margin-top: 3rem;
+  transition: all 2s;
+}
+.container img:hover{
+  transform: scale(1.1);
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pimg4{
+  width: 100%;
+  height: 50%;
+  background: url('./image/Contact.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.ptext1{
+  width: 100%;
+  text-align: center;
+  color: #230600;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+}
+.ptext4{
+  width: 100%;
+  font-family: cursive;
+  text-align: center;
+  color: #c83349;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.ptext2{
+  width: 100%;
+  text-align: left;
+  color: #230600;
+  font-size: 1.2rem;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.ptext3{
+  width: 100%;
+  text-align: center;
+  color: #708090;
+  font-size: 1.2rem;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  }
+
+.ptext1 span{
+  background-color: #FFFFFF;;
+  animation: pulse 5s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #d4ac6e ;
+  }
+  100% {
+    background-color: #4f3222;
+  }
+}
+
+.section-one{
+  height: 100%;
+  display: block;
+  background-color: #DEB887;
+  margin-top: 1rem;
+}
+.section-two{
+  height: 50%;
+  background-color: #FFE4B5;
+  margin-top: 1rem;
+}
+.section-three{
+  height: 50%;
+  background-color: #f7786b;
+  margin-top: 2rem;
+  text-align: center;
+  padding-left: 30rem;
+  border: dotted;
+  border-color: #484f4f;
+  border-radius: 10px;
+
+}
+#first-icon{
+    background-image: url(./image/pic1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 6rem;
+}
+
+.section-one h1{
+  text-align: center;
+  font-style: strong;
+  margin-top: 5rem;
+  letter-spacing: .3rem;
+  font-size: 2rem;
+}
+
+.section-one h3{
+  text-align: center;
+  font-style: italic;
+}
+.section-two h1{
+  text-align: center;
+  font-style: strong;
+  margin-top: 3rem;
+  letter-spacing: .3rem;
+  font-size: 2rem;
+}
+
+.section-one .my-image {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 25%;
+  float: left;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+}
+.section-one .my-image:hover {
+  opacity: 1.0
+}
+
+
+.paragraph {
+  float: right;
+  margin-right: 15%;
+  margin-top: 1rem;
+  color: #2c2c2c;
+  width: 40%;
+  word-spacing: .2rem
+}
+.about-my-work {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  word-spacing: .2rem
+}
