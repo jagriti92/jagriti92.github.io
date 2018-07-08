@@ -198,5 +198,19 @@ background-size: 90% contain;
 background-repeat: no-repeat;
 display: flex;
 }
-	
+	.section-three{
+    height: 50%;
+    background-color: #f7786b;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    border: dotted;
+    border-color: #484f4f;
+    border-radius: 10px;
+  }
+  #first-icon{
+    background-image: url(./image/pic1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 1rem;
+  }
 }
